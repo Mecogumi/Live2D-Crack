@@ -1,7 +1,7 @@
 Current version: Live2D 5.0.04
 
 # Instructions
-Find the version of ur live2d and then download the crack for that version
+Find the version of your live2d and then download the crack for that version
 
 Just copy these two files into "Live2D Cubism X.X\app\lib"
 
