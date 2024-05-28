@@ -1,4 +1,4 @@
-Current version: Live2D 5.0.04
+Current version: Live2D 5.0.05
 
 # Instructions
 Find the version of your live2d and then download the crack for that version
