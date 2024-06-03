@@ -13,4 +13,4 @@
  * Done
 
 ### Example
-![guide](example\1o8sN3ELXs.gif)
+![guide](example/guide.gif)
