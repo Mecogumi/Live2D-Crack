@@ -5,6 +5,7 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 
 /**
  *
@@ -29,7 +30,7 @@ public class ControladorRuta implements ActionListener  {
         // Calcular las coordenadas para centrar el JFrame
         int x = (pantalla.width - tamañoJFrame.width) / 2;
         int y = (pantalla.height - tamañoJFrame.height) / 2;
-
+        ruta.getjFileChooser().setCurrentDirectory(new File(System.getProperty("user.dir")));
         // Establecer la ubicación del JFrame en el centro de la pantalla
         this.ruta.setLocation(x, y);
     }
@@ -43,7 +44,7 @@ public class ControladorRuta implements ActionListener  {
         if (e.getSource()==this.ruta.getjFileChooser()){
             String temp=ruta.getjFileChooser().getSelectedFile().getAbsolutePath();
             dir = temp.replace("\\", "\\\\");
-            Controlador.Main.controlador.actualizarruta();
+            Controlador.Main.controlador.actualizarruta(dir);
             this.ruta.dispose();
         }
     }

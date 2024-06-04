@@ -27,7 +27,8 @@ public class ControladorPrincipal implements ActionListener {
     
     public ControladorPrincipal(Principal principal){
         this.principal=principal;
-        
+        dir=System.getProperty("user.dir");
+        actualizarruta(dir);
         this.principal.getCambiarRuta().addActionListener(this);
         this.principal.getCancelar().addActionListener(this);
         this.principal.getIniciar().addActionListener(this);
@@ -50,9 +51,9 @@ public class ControladorPrincipal implements ActionListener {
         this.principal.getInfo().setText("Ready");
     }
     
-    public void actualizarruta(){
-        dir=ruta.getdir();
-        this.principal.getRuta().setText(dir);
+    public void actualizarruta(String dir){
+        this.dir=dir;
+        this.principal.getRuta().setText(this.dir);
         this.principal.getInfo().setText(this.principal.getInfo().getText()+"\n"+"New rute changed");
     }
     
