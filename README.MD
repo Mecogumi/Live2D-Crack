@@ -1,7 +1,5 @@
 # Live2D-AutoCrack Guide
 
-
-
 ### Requeriments
  * Java
 
