@@ -15,7 +15,7 @@ User guide for the Java and exe versions of the program
 ### Steps
 * Download the latest version from [Releases](https://github.com/Mecogumi/Live2D-Crack/releases)
 * Extract and copy both files `Live2D-AutoCrack.exe` and `rlm1501.jar` to the Live2D root folder 
-   * **Note: if they are not in the root folder of Live2D, the exe will not work, since it uses the JRE of Live2d itself**
+   * **Note: if they are not in the root folder of Live2D, the exe will not run, since it uses the JRE of Live2d itself**
 * Run the `Live2D-AutoCrack.exe`
 * Select the directory where live2d is located
 * Select Crack
