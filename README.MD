@@ -4,10 +4,10 @@
 User guide for the Java and exe versions of the program
 
 **Index**
-1. [Exe Version Guide](#exe guide)
-2. [Java Version Guide](#java guide)
+1. [Exe Version Guide](#exeGuide)
+2. [Java Version Guide](#javaGuide)
 
-<div id='exe guide' />
+<div id='exeGuide' />
 
 ## Exe version Guide
 ## Requiremnts
@@ -29,7 +29,7 @@ User guide for the Java and exe versions of the program
 ![guide](example/guideEXE.gif)
 
 
-<div id='java guide' />
+<div id='javaGuide' />
 
 ## Java Version Guide
 ### Requeriments
