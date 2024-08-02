@@ -1,5 +1,5 @@
 # Live2D-AutoCrack Guide
-
+WARNING: NOT WORKING WITH LIVE2D 5.1
 
 User guide for the Java and exe versions of the program
 
